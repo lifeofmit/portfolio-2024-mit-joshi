@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mit Joshi Portfolio</title>
+  <!-- <link rel="stylesheet" href="./css/animation-classes.css" /> -->
+  <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
+  <script src="./js/cursor.js" defer></script>
+  <script src="./js/animation.js" defer></script>
+  <script src="./js/color-mode.js" defer></script>
+  <script src="./js/project-slideshow.js" defer></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/animation.css" />
+  <link rel="stylesheet" href="./css/color-mode.css" />
+</head>
+
+<body>
+  <div id="hero">
+    <h5>Hello I'm</h5>
+    <h1>Mit Joshi</h1>
+    <p>FrontEnd - JAMstack Developer<br>ReactJS Developer</p>
+    <!-- Block, Element, Modifier (BEM) naming convention-->
+    <div id="hero__animation">
+      <div id="hero__animation__img"></div>
+    </div>
+  </div>
+  <nav id="grid">
+    <div id="grid__tl">
+      <div id="grid__tl__btn">About</div>
+      <div id="grid__tl__content">
+        <div class="cards">
+          <div class="cards__content">
+            <article>
+              <img src="./assets/icons/experience.png" alt="Experience icon" class="icon" />
+              <h2>Experience</h2>
+              <p>
+                3 Years + <br />
+                Developer <br />
+                Experience
+              </p>
+            </article>
+            <p class="cards__content__text">
+              "With 3+ years in front-end development, I excel in HTML, CSS, React.js, and other leading-edge technologies."
+            </p>
+          </div>
+          <div class="cards__content">
+            <article>
+              <img src="./assets/icons/education.png" alt="Education icon" class="icon" />
+              <h2>Education</h2>
+              <p>MBA</p>
+            </article>
+            <p class="cards__content__text">
+              I hold an MBA degree and have pursued numerous certification courses to augment my expertise in front-end
+              development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="grid__tr">
+      <div id="grid__tr__btn">Experience</div>
+      <div id="grid__tr__content">
+        <div class="cards experience">
+          <article class="experience__skill">
+            <h2>Frontend Development</h2>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>HTML</h2>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>CSS</h2>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>HTML DOM</h2>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>JavaScript</h2>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>React JS</h2>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>Wordpress</h2>
+                <p>Experienced</p>
+              </div>
+            </div>
+          </article>
+          <article class="experience__skill">
+            <h2>Backend & Design Tools</h2>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>Node JS</h2>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>REST</h2>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>Express JS</h2>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>GraphQL</h2>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>Git</h2>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h2>PhotoShop</h2>
+                <p>Experienced</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div id="grid__bl">
+      <div id="grid__bl__btn">Projects</div>
+      <div id="grid__bl__content">
+        <div id="grid__bl__content__projects">
+          <div class="project p-1">
+            <img class="project__img project-1" src="assets/portfolio-projects/1.png" alt="Project 1" />
+            <h2 class="project__title">Project One</h2>
+            <button class="btn" onclick="window.open('https://takshinfinity.com/', '_blank')">
+              Live
+            </button>
+            <button class="btn" onclick="window.open('https://takshinfinity.com/', '_blank')">
+              Website
+            </button>
+          </div>
+          <div class="project p-2">
+            <img class="project__img project-2" src="assets/portfolio-projects/2.png" alt="Project 2" />
+            <h2 class="project__title">Project Two</h2>
+            <button class="btn" onclick="window.open('https://3d-spaceship-lifeofmit.netlify.app/', '_blank')">
+              Demo
+            </button>
+            <button class="btn" onclick="window.open('https://github.com/lifeofmit/3d-spaceship', '_blank')">
+              GitHub
+            </button>
+          </div>
+
+          <div class="project p-3">
+            <img class="project__img project-3" src="assets/portfolio-projects/3.png" alt="Project 3" />
+            <h2 class="project__title">Project three</h2>
+            <button class="btn"
+              onclick="window.open('https://todo-list-app-reactjs-by-lifeofmit.netlify.app/', '_blank')">
+              Demo
+            </button>
+            <button class="btn" onclick="window.open('https://github.com/lifeofmit/todo-list', '_blank')">
+              GitHub
+            </button>
+          </div>
+
+          <div class="project p-4">
+            <img class="project__img project-4" src="assets/portfolio-projects/4.png" alt="Project 4" />
+            <h2 class="project__title">Project Four</h2>
+            <button class="btn" onclick="window.open('https://hastensourcing.com/', '_blank')">
+              Live
+            </button>
+            <button class="btn" onclick="window.open('https://hastensourcing.com/', '_blank')">
+              Website
+            </button>
+          </div>
+
+          <div class="project p-5">
+            <img class="project__img project-5" src="assets/portfolio-projects/5.png" alt="Project 5" />
+            <h2 class="project__title">Project Five</h2>
+            <button class="btn" onclick="window.open('https://district98.org/', '_blank')">
+              Live
+            </button>
+            <button class="btn" onclick="window.open('https://district98.org/', '_blank')">
+              Website
+            </button>
+          </div>
+
+          <div class="project p-6">
+            <img class="project__img project-6" src="assets/portfolio-projects/6.png" alt="Project 6" />
+            <h2 class="project__title">Project Six</h2>
+            <button class="btn" onclick="window.open('https://calculator-in-reactjs-mit.netlify.app/', '_blank')">
+              Demo
+            </button>
+            <button class="btn" onclick="window.open('https://github.com/lifeofmit/calculator', '_blank')">
+              GitHub
+            </button>
+          </div>
+
+          <div class="project p-7">
+            <img class="project__img project-7" src="assets/portfolio-projects/7.png" alt="Project 7" />
+            <h2 class="project__title">Project Seven</h2>
+            <button class="btn" onclick="window.open('https://lifeofmit.github.io/eyeball/', '_blank')">
+              Demo
+            </button>
+            <button class="btn" onclick="window.open('https://github.com/lifeofmit/eyeball', '_blank')">
+              GitHub
+            </button>
+          </div>
+
+          <div class="project p-8">
+            <img class="project__img project-8" src="assets/portfolio-projects/8.png" alt="Project 8" />
+            <h2 class="project__title">Project Eight</h2>
+            <button class="btn" onclick="window.open('https://mightythread.com/', '_blank')">
+              Live
+            </button>
+            <button class="btn" onclick="window.open('https://mightythread.com/', '_blank')">
+              Website
+            </button>
+          </div>
+
+          <div class="project p-9">
+            <img class="project__img project-9" src="assets/portfolio-projects/9.png" alt="Project 9" />
+            <h2 class="project__title">Project Nine</h2>
+            <button class="btn" onclick="window.open('https://smallworldimmigration.ca/', '_blank')">
+              Live
+            </button>
+            <button class="btn" onclick="window.open('https://www.linkedin.com/in/mit-joshi/', '_blank')">
+              LinkedIn for more
+            </button>
+          </div>
+
+          <button class="arrow" onclick="navigateProject(-1)">&#10094;</button>
+          <button class="arrow" onclick="navigateProject(1)">&#10095;</button>
+        </div>
+      </div>
+    </div>
+    <div id="grid__br">
+      <div id="grid__br__btn">Contact</div>
+      <div id="grid__br__content">
+        <h5 class="contact-text">Get In Touch</h5>
+        <h2 class="contact-text">Contact Me</h2>
+        <h5 class="contact-text" onclick="window.open('tel:+917859926143', '_blank')">+91 785 992 6143</h5>
+        <div>
+          <button class="btn btn-contact" onclick="window.open('mailto:mitjoshi0207@gmail.com', '_blank')">
+            Email
+          </button>
+          <button class="btn btn-contact" onclick="window.open('https://www.linkedin.com/in/mit-joshi/', '_blank')">
+            LinkedIn
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="cursor-dot" data-cursor-dot></div>
+  <div class="cursor-outline" data-cursor-outline></div>
+  <div id="color-mode">
+    <div id="toggle-button" class="icon"></div>
+  </div>
+</body>
+
+</html>
