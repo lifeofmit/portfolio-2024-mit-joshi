@@ -146,13 +146,13 @@ body:after {
 }
 
 #toggle-button {
-  background-image: url(../assets/icons/sun.png);
+  background-image: url(https://github.com/lifeofmit/portfolio-2024-mit-joshi/assets/75907060/c21919ab-e4b8-4388-a817-257fe6622c7b);
   background-size: cover;
   cursor: pointer;
 }
 
 .dark-mode #toggle-button {
-  background-image: url(../assets/icons/moon.png);
+  background-image: url(https://github.com/lifeofmit/portfolio-2024-mit-joshi/assets/75907060/63db0a08-dd22-45d1-a13e-88457654178f);
 }
 
 .dark-mode #color-mode {

@@ -32,8 +32,8 @@ function saveColorMode() {
 
 function updateToggleButton() {
   if (root.classList.contains("dark-mode")) {
-    toggleButton.style.backgroundImage = "url(../assets/icons/moon.png)";
+    toggleButton.style.backgroundImage = "url(https://github.com/lifeofmit/portfolio-2024-mit-joshi/assets/75907060/63db0a08-dd22-45d1-a13e-88457654178f)";
   } else {
-    toggleButton.style.backgroundImage = "url(../assets/icons/sun.png)";
+    toggleButton.style.backgroundImage = "url(https://github.com/lifeofmit/portfolio-2024-mit-joshi/assets/75907060/c21919ab-e4b8-4388-a817-257fe6622c7b)";
   }
 }
