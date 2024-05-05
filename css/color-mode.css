@@ -146,13 +146,13 @@ body:after {
 }
 
 #toggle-button {
-  background-image: var(--sun);
+  background-image: url(../assets/icons/sun.png);
   background-size: cover;
   cursor: pointer;
 }
 
 .dark-mode #toggle-button {
-  background-image: var(--moon);
+  background-image: url(../assets/icons/moon.png);
 }
 
 .dark-mode #color-mode {
